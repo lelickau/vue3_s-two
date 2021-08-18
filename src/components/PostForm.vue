@@ -1,12 +1,14 @@
 <template>
   <form class="form" @submit.prevent>
-    <h4>Создать пост</h4>
+    <h4 class="title form__title">Создать пост</h4>
     <input-item
+    class="form__input-title"
       v-model="post.title"
       type="text"
       placeholder="Название"
     />
     <input-item
+    class="form__input-about"
       v-model="post.body"
       type="text"
       placeholder="Описание"
@@ -40,14 +42,21 @@ export default {
 
 <style scoped>
 .form {
-  background-color: rgb(223, 223, 223);
-  padding: 35px;
-  width: 300px;
-  border: #fff 1px solid;
-  border-radius: 10px;
-  -webkit-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
-  box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+  background-color: #FCFCFD;
+  padding: 35px 40px;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 80, 48, 0.2);
+-moz-box-shadow: 0px 0px 8px 0px rgba(34, 80, 48, 0.2);
+box-shadow: 0px 0px 8px 0px rgba(34, 80, 48, 0.2);
 }
-
+.form__title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.form__input-about {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 </style>

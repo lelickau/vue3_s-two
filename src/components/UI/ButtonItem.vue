@@ -11,15 +11,15 @@ export default {
 
 <style scoped>
 .btn {
-  display: block;
-  margin-left: auto;
-  margin-top: 20px;
-  background-color: rgb(255, 91, 91);
-  border: rgb(252, 114, 114) 1px solid;
-  border-radius: 10px;
-  padding: 10px;
-  color: #fff;
-  font-weight: 700;
-  cursor: pointer;
+    background: rgb(83,203,168);
+    background: linear-gradient(86deg, rgba(83,203,168,1) 0%, rgba(63,211,142,1) 100%);
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    color: #f3fdf9;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
 }
 </style>

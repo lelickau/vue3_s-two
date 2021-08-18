@@ -22,11 +22,16 @@ export default {
 
 <style scoped>
 .input {
-    height: 55px;
     width: 100%;
-    margin-top: 10px;
+    height: 35px;
     padding: 5px 10px;
-    border: #555585 1px solid;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 200;
+    border: none;
     border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 80, 48, 0.2);
+-moz-box-shadow: 0px 0px 8px 0px rgba(34, 80, 48, 0.2);
+box-shadow: 0px 0px 8px 0px rgba(34, 80, 48, 0.2);
 }
 </style>

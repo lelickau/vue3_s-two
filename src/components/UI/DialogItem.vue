@@ -30,7 +30,7 @@ methods: {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(145, 82, 82, .5);
+    background-color: rgba(181, 241, 204, 0.5);
     position: fixed;
     display: flex;
     justify-content: center;
