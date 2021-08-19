@@ -2,6 +2,7 @@
   <form class="form" @submit.prevent>
     <h4 class="title form__title">Создать пост</h4>
     <input-item
+    v-focus
     class="form__input-title"
       v-model="post.title"
       type="text"
